@@ -59,8 +59,112 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+body{
+	width: 876px;
+	margin: 0 auto;
+}
+
+body nav a{
+	display: inline-block;
+	text-decoration: none;
+	width: 11%;
+	color: gray;
+	margin-left: 1%;  
+	font-size: 14px;
+}
+
+body nav img{
+	display: inline-block;
+	margin-left: 0;
+	width: 20%;
+}
+
+header .head-left{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+header img{
+	width: 45%;
+	height: 15%;
+	display: inline-block;
+	margin-left: 9%;
+}
+
+h1{
+	font-size: 72px;
+	text-align: center;
+	padding: 25% 10% 0 10%;
+}
+
+button{
+	border: 1px solid black;
+	background: white;
+	text-align: center;
+	margin: 5% 30%;
+	width: 35%
+}
+
+header{
+	padding: 5%;
+}
+
+.above-img{
+	border-top: 1px solid black;
+	padding-top: 2%;
+	margin-bottom: 2%;
+}
+
+.above-img .features{
+	display: inline-block;
+	width: 45%;
+}
+
+.above-img .about{
+	display: inline-block;
+	width: 45%;
+	margin-left: 5%;
+}
+
+.middle-img{
+	
+	margin-bottom: 2%;
+	width = 500px;
+}
+
+.below-img .services{
+	display: inline-block;
+	width: 30%;
+}
+
+.below-img .product{
+	display: inline-block;
+	width: 30%;
+	margin-left: 2%;
+}
+
+.below-img .vision{
+	display:inline-block;
+	width: 30%;
+	margin-left: 2%;
+}
+
+
+.below-img{
+	border-bottom: 1px solid black;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+}
+
+footer{
+	text-align: center;
+	font-size: 10px;
+	padding-top: 2%;
+}
